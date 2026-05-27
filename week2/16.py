@@ -3,6 +3,6 @@ names = 'Harry' , 'Hermoine' , 'Ron', 'George', 'Fred' , 'Neville' , 'Luna', 'Gi
 count = {}
 for name in names:
     first = name[0]
-    count[first] = count.get(first,0) + 1
-print(count)
+    count[first] = count.get(first, 0) + 1
 
+print(count)
